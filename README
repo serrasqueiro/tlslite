@@ -461,6 +461,9 @@ RFC 7366.
 
 12 History
 ===========
+x.x.x - 10/20/2019
+ - forked tlslite 0.4.9 https://github.com/serrasqueiro/tlslite.git and fixed "async",
+   which is a keyword in Python 3.7
 0.4.9 - 08/11/2015
  - Fixed denial of service (runtime exception) on malformed packet (Hubert Kario)
  - Fixed session caching bug (Mirko Dziadzka)
